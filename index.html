@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simplyzenyoga.com</title>
+</head> 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="dist/owl.carousel.min.js"></script>
+<body>
+    <header class=" container">
+        <nav
+            class="navbar navbar-expand  container-fluid "
+        >
+            <a class="navbar-brand" href="#"><img src="assets/logo1.png" class="logo" alt=""></a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            ></button>
+            <div class="collapse  navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav  m-auto mt-2 mt-lg-0">
+                    <li class="list nav-item nav-hover">
+                        <a class="nav-link  fw-bold text-primary" href="index.html" aria-current="page"
+                            >Home <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item nav-hover">
+                        <a class="nav-link text-primary fw-medium" href="Blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item nav-hover"> 
+                        <a class="nav-link text-primary" href="Aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item nav-hover">
+                        <a class="nav-link text-primary" href="Contactus.html">Contact Us</a>
+                    </li>
+                   
+                        
+                </ul>
+                
+            </div>
+            <div class=" me-auto">
+                <button class="btn btn-success ps-3 pe-3 me-2 " data-bs-target="#sign" data-bs-toggle="modal">Sign up</button>
+                <button class="btn btn-primary ps-3 pe-3" data-bs-target="#login" data-bs-toggle="modal">Log In</button>
+
+            </div>
+        </nav>
+        
+
+    </header>
+    <section>
+        <!-- modal-start -->
+         <div class="modal fade" id="login">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h4 class="modal-title">Log In</h4>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="form-floating">
+                                    <input type="email" id="email" class=" form-control my-3" placeholder="">
+                                    <label for="email">Email address</label>
+                                </div>
+                                
+                                <div class="form-floating">
+                                    <input type="password" class="form-check form-control" name="" id="pass" placeholder="">
+                                    <label for="pass">Password</label>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="modal-footer border-0 text-center">
+                            <button data-bs-dismiss="modal" class="btn btn-primary">Submit</button>
+
+                        </div>
+
+                    
+
+                </div>
+
+            </div>
+
+         </div>
+         <div class="modal fade" id="sign">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h4 class="modal-title">Sign Up</h4>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="form-floating">
+                                    <input type="email" id="email" class=" form-control my-3" placeholder="">
+                                    <label for="email">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="tel" id="Phone" class=" form-control my-3" placeholder="">
+                                    <label for="Phone">Phone number</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" id="city" class=" form-control my-3" placeholder="">
+                                    <label for="city">City</label>
+                                </div>
+                                
+                                
+                            </form>
+
+                        </div>
+                        <div class="modal-footer border-0 text-center">
+                            <button data-bs-dismiss="modal" class="btn btn-primary">Submit</button>
+
+                        </div>
+
+                    
+
+                </div>
+
+            </div>
+
+         </div>
+    </section>
+    <section>
+        <div class=" container-fluid hero ">
+           
+            
+                <!-- <img class=" w-100 rounded-5" src="./assets/hero5.jpg" alt=""> -->
+
+                <div class="txt m-auto text-white">
+                    <h1 class=" text-tertiary fw-bold p-2">"Find Balance, Strength, and Peace with Every Pose"</h1>
+                    <h5 class=" p-1 pb-4" >Explore our beginner to advanced yoga classes, designed to help you reconnect with your mind, body, and spirit.</h5>
+                    <a href="#join"><button class="btnn ">Join our class today</button></a>
+                </div>
+
+            
+
+        </div>
+    </section>
+    <section class="mt-5">
+        <h3 class=" container p-4 fw-bold">Why Yoga....???</h3>
+        <div class="row container  m-auto">
+            <div class=" col-12 col-md-6 col-lg-4 p-3 ">
+                <div class="border border-3 card-why-yoga rounded-3 p-2">
+                    <div class="overflow-hidden rounded-3 p-2">
+                        <img class="w-100 rounded-3" src="assets/2.jpg" alt="">
+                    </div>
+                    <h4 class="text-center p-2 fw-semibold text-primary">Physical Benefits</h4>
+                    <p class=" p-3">Improves Flexibility,Builds Strength,Enhances Balance and Coordination</p>
+                    <div class="text-end">
+                        <button class=""><a href="know.html">Know more</a></button>
+                    </div>
+                </div>
+    
+            </div>
+           
+            <div class=" col-12 col-md-6 col-lg-4 p-3 ">
+                <div class="border border-3 card-why-yoga rounded-3 p-2 ">
+                    <div class="overflow-hidden rounded-3 p-2">
+                        <img class="w-100 rounded-3 " src="assets/hero4.jpeg" alt="">
+                    </div>
+                        <h4 class="text-center p-2 fw-semibold text-primary">Mental Benefits</h4>
+                        <p class=" p-3">Reduces Stress,Enhances Concentration, Boosts Mood and Emotional Health</p>
+                        <div class="text-end">
+                            <button class=""><a href="know.html">Know more</a></button>
+                        </div>
+                </div>
+    
+            </div>
+           
+            <div class=" col-12 col-md-6 col-lg-4  p-3">
+                <div class="border border-3 card-why-yoga rounded-3 p-2">
+                    <div class="overflow-hidden rounded-3 p-2">
+                        <img class="w-100 rounded-3" src="assets/22.jpg" alt="">
+                    </div>
+                    <h4 class="text-center p-2 fw-semibold text-primary">Emotional and Spiritual Benefits</h4>
+                        <p class=" p-3">Improves Flexibility,Builds Strength,Enhances Balance and Coordination</p>
+                    <div class="text-end">
+                        <button class=""><a href="know.html">Know more</a></button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="trainer">
+        <h3 class=" fw-bold my-5">Meet our certified trainers</h3>
+        <div class="owl-carousel row " >
+           <div>
+            <div class="">
+                <div class="card shadow border-0 rounded-3">
+                    <div class=" bg1 social rounded-3">
+                        <div class="socialIcons justify-content-center align-items-end social">
+                            <div class="d-flex  w-100 rounded justify-content-center">
+
+                                <i class="text-primary fw-bold fs-2 bi bi-facebook p-2"></i>
+                                <i class="bi bi-instagram fw-bold fs-2 text-danger p-2"></i>
+                                <i class="bi bi-twitter-x fw-bold fs-3 text-secondary p-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title text-center fw-medium">Regina Thomus</h4>
+                        <p class="card-text"><div class="text-center">
+                            <i class="bi bi-star-fill text-primary"></i>
+                            <i class="bi bi-star-fill text-primary"></i>
+                            <i class="bi bi-star-fill text-primary"></i>
+                            <i class="bi bi-star-fill text-primary"></i>
+                            <i class="bi bi-star-half text-primary"></i>
+                        </div></p>
+                    </div>
+                </div>
+                
+            </div>
+           </div>
+             <div>
+                <div class="">
+                    <div class="card shadow border-0 rounded-3">
+                        <div class=" bg2 social rounded-3">
+                            <div class="socialIcons justify-content-center align-items-end social">
+                                <div class="d-flex  w-100 rounded justify-content-center">
+    
+                                    <i class="text-primary fw-bold fs-2 bi bi-facebook p-2"></i>
+                                    <i class="bi bi-instagram fw-bold fs-2 text-danger p-2"></i>
+                                    <i class="bi bi-twitter-x fw-bold fs-3 text-secondary p-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h4 class="card-title text-center fw-medium">Niharika</h4>
+                            <p class="card-text"><div class="text-center">
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-half text-primary"></i>
+                            </div></p>
+                        </div>
+                    </div>
+                    
+                </div> 
+             </div>
+            <div>
+                <div class="">
+                    <div class="card shadow border-0 rounded-3">
+                        <div class=" bg3 social rounded-3">
+                            <div class="socialIcons justify-content-center align-items-end social">
+                                <div class="d-flex  w-100 rounded justify-content-center">
+    
+                                    <i class="text-primary fw-bold fs-2 bi bi-facebook p-2"></i>
+                                    <i class="bi bi-instagram fw-bold fs-2 text-danger p-2"></i>
+                                    <i class="bi bi-twitter-x fw-bold fs-3 text-secondary p-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h4 class="card-title text-center fw-medium">Radhika</h4>
+                            <p class="card-text"><div class="text-center">
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                            </div></p>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </div>
+              <div>
+                <div class="">
+                    <div class="card shadow border-0 rounded-3">
+                        <div class=" bg4 social rounded-3">
+                            <div class="socialIcons justify-content-center align-items-end social">
+                                <div class="d-flex  w-100 rounded justify-content-center">
+    
+                                    <i class="text-primary fw-bold fs-2 bi bi-facebook p-2"></i>
+                                    <i class="bi bi-instagram fw-bold fs-2 text-danger p-2"></i>
+                                    <i class="bi bi-twitter-x fw-bold fs-3 text-secondary p-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h4 class="card-title text-center fw-medium">Naveen</h4>
+                            <p class="card-text"><div class="text-center">
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                <i class="bi bi-star-fill text-primary"></i>
+                                
+                            </div></p>
+                        </div>
+                    </div>
+                    
+                </div> 
+              </div>
+            
+          </div>
+    </section>
+
+    <section class="container mt-5 ">
+        <h3 class="p-5 fw-bold " id="video">Watch our videos</h3>
+        <div class=" video m-auto">
+
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"aria-current="true" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded-4">
+                  <div class="carousel-item col-12 col-md-6 col-lg-12 active">
+                    <img src="assets/21.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class=" text-white">Easy yoga</h5>
+                      <p class=" text-white">Any age group can do simple poses</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-12 col-md-6 col-lg-12">
+                    <img src="assets/bl4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class=" text-white">Body Flexibity</h5>
+                      <p class=" text-white">To get Flexible body by doing simple stretches everyday</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-12 col-md-6 col-lg-12">
+                    <img src="assets/aaa.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-white">Outdoor yoga</h5>
+                      <p class=" text-white">outdoor yoga classes for pleasent feeling
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+
+    </section>
+    <section class=" container">
+
+    </section>
+    <section>
+        
+    </section>
+   
+    <section class=" container my-5 px-5 " id="join">
+       <div class="row formbg rounded-3">
+        <div class="col-6 m-auto">
+            <h2 class=" text-center fw-bold my-3 text-white">Join class</h2>
+            <form onsubmit="return formValidation()">
+                <input class="form-control my-2 py-2 " type="text" id="fullName" placeholder="Name">
+                <p class="text-danger" id="nameError"></p>
+                <input class="form-control my-2 py-2 " type="tel" id="mobileNumber" name="" id="" placeholder="Phone Number">
+                <p class="text-danger" id="mobileError"></p>
+                <input class="form-control my-2 py-2 " type="email" id="emailId" name="" id="" placeholder="Email">
+                <p class="text-danger" id="emailError"></p>
+                <input class="form-control my-2 py-2 " type="text" placeholder=" Your city">
+                <select class="form-select" name="" id="">
+                    <option value="">Choose option</option>
+                    <option value="">Social media</option>
+                    <option value="">Newspaper</option>
+                    <option value="">Pomplet</option>
+                    <option value="">Friend</option>
+                    <option value="">other</option>
+                </select>
+             <input class="form-check form-control my-3 p-2 btnn" type="submit" value="Join">
+
+            </form>
+
+        </div>
+    </div>
+
+    </section>
+    <script src="script.js"></script>
+    <section class="container mt-5" id="Testimonials">
+        <h3 class="container m-5  fw-bold">What our students say...</h3>
+        <div class="row mx-auto">
+           <div class="  col-12 col-md-6 col-lg-3 ">
+            <div class=" shadow m-auto rounded-3 bg-white p-2">
+                <div class=" m-auto d-flex">
+                    <img class="  profile m-2" src="assets/2a.jpg" alt="">
+                    <h4 class=" p-3">Rajesh</h4>
+                </div>
+                <p class=" p-4">This gives more knoledge on yoga and i felt in love with this This gives more knoledge on yoga and i felt in love with this
+                    This gives more knoledge on yoga and i felt in love with this
+                </p>
+
+            </div>
+           </div>
+           <div class=" col-12 col-md-6 col-lg-3">
+            <div class=" shadow m-auto rounded-3 bg-white  p-2">
+                <div class=" m-auto d-flex">
+                    <img class="  profile m-2 " src="assets/2b.jpg" alt="">
+                    <h4 class=" p-3">Jessy</h4>
+                </div>
+                <p class=" p-4">This gives more knoledge on yoga and i felt in love with this This gives more knoledge on yoga and i felt in love with this
+                    This gives more knoledge on yoga and i felt in love with this
+                </p>
+
+            </div>
+           </div>
+           <div class=" col-12 col-md-6 col-lg-3 ">
+            <div class=" shadow m-auto rounded-3 bg-white  p-2">
+                <div class=" m-auto d-flex">
+                    <img class="  profile m-2" src="assets/2d.jpg" alt="">
+                    <h4 class=" p-3"> Naveen</h4>
+                </div>
+                <p class=" p-4">This gives more knoledge on yoga and i felt in love with this This gives more knoledge on yoga and i felt in love with this
+                    This gives more knoledge on yoga and i felt in love with this
+                </p>
+
+            </div>
+           </div>
+            <div class=" col-12 col-md-6 col-lg-3">
+                <div class=" shadow m-auto rounded-3 bg-white  p-2">
+                    <div class=" m-auto d-flex">
+                        <img class="  profile m-2" src="assets/2c.jpg" alt="">
+                        <h4 class=" p-3">Beena</h4>
+                    </div>
+                    <p class=" p-4">This gives more knoledge on yoga and i felt in love with this This gives more knoledge on yoga and i felt in love with this
+                        This gives more knoledge on yoga and i felt in love with this
+                    </p>
+    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="container mt-5">
+        <div>
+            <h3 class="text-center fw-semibold m-3 mb-5">Frequently asked questions</h3>
+        </div>
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item m-3">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. What is yoga?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong> Yoga is a mind-body practice </strong> that combines physical postures, breathing techniques, and meditation. It promotes physical health, mental clarity, and emotional balance.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. Do I need to be flexible to start yoga? 
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Not at all! Yoga is for everyone </strong> regardless of flexibility or fitness level. Classes can be adapted to meet individual needs, and over time, you may find your flexibility improves.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. How often should I practice yoga? 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>For best results,</strong> aim for at least 2-3 times a week. However, even a few minutes of practice daily can be beneficial.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        4. How do I book a class?
+                    </button>
+                  </h2>
+                  <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>You</strong> can book a class through our website's Schedule page or through our mobile app. Advanced booking is recommended as classes can fill up quickly.
+                    </div>
+                  </div>
+                </div>
+               
+              
+
+        </div>
+        <div class="card-why-yoga text-end ">
+            <a href="faq.html"><button class="fw-semibold">View more</button></a>
+        </div>
+        
+    </section>
+
+    
+    <footer class=" container-fluid bg-body-tertiary mt-5 p-5">
+        
+        <div class=" row m-auto">
+            <div class=" col-12 col-md-6 col-lg-4">
+                <h1 class=" fs-2 fw-bold "><img src="assets/logo1.png" class="w-75" alt=""></h1>
+                <ul class=" p-2">
+                    <li class=" p-2">
+                        Address:House no: 3-5-290 ,
+                        Kakani Nagar 
+                        Visakhapatnam
+                        Andhra Pradesh 530040
+                        
+                    </li>
+                    <li class=" p-2">
+                        Phone number:0891-123456
+                    </li>
+            </ul>
+            
+
+        </div>
+        <div class="col-6 col-md-6 col-lg-2 mt-5 icon" >
+            
+            <ul>
+                <li><a href="Aboutus.html">About us</a></li>
+                <li><a href="#trainer">Trainers</a></li>
+                <li><a href="Blogs.html">Blog</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <li><a href="#video">Classes</a></li>
+                <li><a href="#join">Sign Up</a></li>
+            </ul>
+            
+        </div>
+        <div class=" col-6 col-md-6 col-lg-2 mt-5 icon">
+            <ul>
+                <li>Gallery</li>
+                <li><a href="faq.html">FAQ's</a></li>
+                <li>Articles</li>
+                <li>Our Team</li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li>Log in</li>
+            </ul>
+            
+        </div>
+        <div class=" col-6 col-md-6 col-lg-4 mt-3 p-5">
+            <h6>Enter your email address to register to our news letter</h6>
+            <form action="">
+                <input type="email" class=" form-check form-control" name="" placeholder=" your email" id="">
+                <div class=" text-end m-3">
+                    <input type="submit" value=" subscribe" class=" btnn" >
+                </div>
+                <i class="fs-4 m-2 text-primary p-2 bi bi-facebook"></i>
+                <i class="fs-4 m-2 text-dark bi bi-twitter-x"></i>
+                <i class="fs-4 m-2 text-secondary bi bi-instagram"></i>
+                <i class="fs-4 m-2 text-danger p-2 bi bi-youtube"></i>
+            </form>
+            
+            
+        </div>
+        
+        
+    </div>
+    
+    
+</footer>
+
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:true
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+</script>
+
+
+
+</body>
+</html>

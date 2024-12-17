@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(235, 235, 251);
+    margin: 0%;
+}
+.logo{
+    height: 80px;
+    width: 250px;
+
+}
+.nav-hover a:hover{
+    color: rgb(123, 123, 255) !important;
+    font-weight: bold;
+}
+
+.btnn{
+    background-color: rgb(123, 123, 255);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px ;
+}
+.socialIcons{
+    display: none !important;
+    border-radius:  4px;
+    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card:hover .socialIcons{
+    display: flex !important;
+}
+
+
+.social{
+    height: 350px;
+}
+.bg1{
+    background-image: url("assets/221.webp");
+    background-size: cover;
+    background-position: center;
+}
+.bg2{
+    background-image: url("assets/222.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.bg3{
+    background-image: url("assets/223.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.bg4{
+    background-image: url("assets/224.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.formbg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("assets/111.webp");
+    background-size: cover;
+    height: 90vh;
+}
+
+.profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.video{
+    width: 80%;
+    height: 45%;
+    
+}
+
+
+.card-why-yoga button{
+    border: 0;
+    background-color: transparent;
+    color: rgb(123, 123, 255);
+    text-decoration: underline;
+}
+.card-why-yoga img{
+    transition: all 0.5s;
+    height: 300px;
+}
+.card-why-yoga:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("assets/hero5.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+   
+    box-shadow: 2px ;
+    border-color: aliceblue;
+}
+.head{
+   
+    font-family:cursive;
+}
+.blog button{
+    border: 0;
+    background-color: transparent;
+    color: rgb(123, 123, 255);
+    text-decoration: underline;
+}
+.ca{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.ca img{
+    width: 100%;
+    height: 100%;
+}
+.ab{
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(assets/hhh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bc{
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(assets/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon ul li a{
+    color: black;
+    text-decoration: none;
+}
+.secondaryBg{
+    background-color: rgb(192, 192, 243);
+}
+.bl h3{
+    padding: 8px;
+}
+.bl p{
+    padding: 5px;
+}
+
